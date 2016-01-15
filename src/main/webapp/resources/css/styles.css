@@ -1,0 +1,36 @@
+@import url('http://twitter.github.com/bootstrap/assets/css/bootstrap.css');
+body {
+    background: #8FE06D;
+    padding-top: 20px; 
+}
+.white
+{
+    background: #ffffff;
+    //background-color:#428bca
+}
+
+@media screen and (max-width: 1200px) {
+      .fontsizeHeader {
+        font-size:300%;
+    }
+}
+ 
+@media screen and (max-width: 780px) {
+    .fontsizeHeader {
+        font-size:5em;
+    }
+}
+
+.imgBanner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .tab_colors{
+     
+     background: #8FE06D;
+ }
+ .col-centered{
+    float: none;
+    margin: 0 auto;
+}
